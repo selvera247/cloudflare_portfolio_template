@@ -1,8 +1,0 @@
-name = "template"
-compatibility_date = "2025-01-01"
-
-[assets]
-directory = "src"
-
-[vars]
-CONTACT_EMAIL = "you@yourdomain.com"
