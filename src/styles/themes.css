@@ -1,0 +1,53 @@
+/* Theme Variables */
+:root {
+  --bg: #ffffff;
+  --bg-secondary: #f5f7fb;
+  --text: #151823;
+  --accent: #1e68ff;
+  --card: #ffffff;
+  --border: #dde2ee;
+}
+
+[data-theme="dark"] {
+  --bg: #050814;
+  --bg-secondary: #0c1224;
+  --text: #e9eefc;
+  --accent: #4d8dff;
+  --card: #10172f;
+  --border: #202744;
+}
+
+/* Extra accent palettes if you want to extend later */
+[data-theme="purple"] { --accent: #8c4dff; }
+[data-theme="green"] { --accent: #2ea87d; }
+[data-theme="orange"] { --accent: #ff8a3c; }
+[data-theme="pink"] { --accent: #f25aa3; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  transition: background 0.3s, color 0.3s;
+}
+
+header,
+#projects,
+#contact,
+footer {
+  background: var(--bg);
+}
+
+.project-card {
+  background: var(--card);
+  border-color: var(--border);
+}
+
+#contact input,
+#contact textarea {
+  background: var(--card);
+  color: var(--text);
+  border-color: var(--border);
+}
+
+#contact button {
+  background: var(--accent);
+}
