@@ -1,0 +1,31 @@
+{
+  "name": "Your Name",
+  "title": "Consultant & Data-Driven Problem Solver",
+  "bio": "I help organizations modernize reporting, streamline processes, and make better decisions with analytics.",
+  "email": "you@yourdomain.com",
+  "social": {
+    "twitter": "https://twitter.com/yourhandle",
+    "linkedin": "https://linkedin.com/in/yourhandle",
+    "github": "https://github.com/yourhandle"
+  },
+  "projects": [
+    {
+      "title": "Financial Reporting Data Layer",
+      "description": "A reporting layer that turns raw system exports into analytics-ready tables and KPIs for finance and operations stakeholders.",
+      "image": "/assets/placeholder-project.jpg",
+      "link": "#"
+    },
+    {
+      "title": "Forecast & Scenario Toolkit",
+      "description": "Templates with baseline, upside, and downside scenarios that help leaders understand drivers and plan ahead.",
+      "image": "/assets/placeholder-project.jpg",
+      "link": "#"
+    },
+    {
+      "title": "Process & Systems Transformation",
+      "description": "Process mapping and systems design that reduce cycle time and improve operational outcomes.",
+      "image": "/assets/placeholder-project.jpg",
+      "link": "#"
+    }
+  ]
+}
