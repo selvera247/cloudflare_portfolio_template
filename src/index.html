@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Portfolio Template</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/styles/themes.css">
+  <link rel="stylesheet" href="/styles/main.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1 id="name">{{NAME}}</h1>
+      <p id="title">{{TITLE}}</p>
+      <p id="bio">{{BIO}}</p>
+      <div class="social-links">
+        <a href="https://twitter.com" target="_blank" rel="noopener">Twitter</a>
+        <a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com" target="_blank" rel="noopener">GitHub</a>
+      </div>
+      <button id="theme-toggle">Dark Mode</button>
+    </header>
+
+    <main>
+      <section id="projects">
+        <h2>Selected Work</h2>
+        <p class="section-intro">
+          Highlight projects that show how you improve processes, build analytics, or deliver results.
+        </p>
+        <div id="project-grid"></div>
+      </section>
+
+      <section id="contact">
+        <h2>Get in Touch</h2>
+        <p class="section-intro">
+          Use this form for consulting inquiries, collaboration ideas, or questions.
+        </p>
+        <form id="contact-form">
+          <input name="name" placeholder="Your name" required>
+          <input name="email" type="email" placeholder="Email" required>
+          <textarea name="message" rows="5" placeholder="Project details or question" required></textarea>
+          <button type="submit">Send Message</button>
+          <p id="form-status"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>Visitors: <span id="visitor-count">...</span></p>
+      <p>© {{YEAR}} <span id="footer-name">{{NAME}}</span>. Built on Cloudflare Pages.</p>
+    </footer>
+  </div>
+
+  <script src="/scripts/main.js"></script>
+</body>
+</html>
